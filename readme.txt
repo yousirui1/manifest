@@ -17,9 +17,9 @@ $sudo update-alternatives --config javac
 $sudo apt-get install git gnupg flex bison gperf build-essential \
 	zip curl libc6-dev libncurses5-dev:i386 x11proto-core-dev \
 	libx11-dev:i386 libreadline6-dev:i386 libgl1-mesa-glx:i386 \
-	g++-multilib mingw32 tofrodos gcc-multilib ia32-libs \
+	g++-multilib  tofrodos gcc-multilib lib32ncurses5 \
 	python-markdown libxml2-utils xsltproc zlib1g-dev:i386 \
-	lzop libssl1.0.0 libssl-dev
+	lzop libssl1.0.0 libssl-dev liblz4-tool
 
 Build SDK:
 
